@@ -46,6 +46,7 @@ public class Level_4 extends BasicGameState {
             }
             
         ///////////////////////////////////////////////////////////////////////////////disable for "godmode"
+        
         for (Enemy e: enemies){
             if (e.hit(player.getHitbox())){
                 sbg.enterState(0, new FadeOutTransition(), new FadeInTransition());

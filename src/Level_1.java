@@ -48,11 +48,12 @@ public class Level_1 extends BasicGameState {
             bullets.add(new bullet(mx, my));
         }
         ///////////////////////////////////////////////////////////////////////////////disable for "godmode"    
+        /*
         for (Enemy e : enemies) {
             if (e.hit(player.getHitbox())) {
                 sbg.enterState(6, new FadeOutTransition(), new FadeInTransition());
             }
-        }
+        }*/
         ///////////////////////////////////////////////////////////////////////////////
 
         for (bullet b : bullets) {// hit detection for enemies
