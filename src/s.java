@@ -24,7 +24,7 @@ public class s extends BasicGameState {
         }
         
         if(in.isKeyPressed(Input.KEY_SPACE)){
-            sbg.enterState(6, new FadeOutTransition(), new FadeInTransition());//SHHHHHHHHH, secret
+            sbg.enterState(8, new FadeOutTransition(), new FadeInTransition());//SHHHHHHHHH, secret
         }
 
     }
